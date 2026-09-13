@@ -106,24 +106,24 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
 
     Tahapan preprocessing yang dilakukan:
 
-    Missing Value dan Nilai ?
+    **Missing Value dan Nilai ?**
     Dataset tidak memiliki standard missing value (NaN), tetapi terdapat nilai ? pada beberapa kolom.
 
-    Nilai ? ditangani dengan menggantinya menjadi:
+    **Nilai ? ditangani dengan menggantinya menjadi:**
     unknown
     
     Dengan cara ini, informasi bahwa suatu nilai tidak diketahui tetap dapat dipertahankan sebagai kategori.
 
-    Duplicate
+    **Duplicate**
     Dilakukan pemeriksaan terhadap data duplikat. Dataset tidak memiliki duplicate berdasarkan pemeriksaan yang dilakukan.
 
-    Constant Feature
+    **Constant Feature**
     Fitur veil-type memiliki satu nilai unik sehingga tidak memberikan informasi pembeda dan dihapus dari proses pemodelan.
 
-    Encoding
+    **Encoding**
     Karena fitur pada dataset bersifat categorical, dilakukan One Hot Encoding.
 
-    Encoding diterapkan menggunakan:
+    **Encoding diterapkan menggunakan:**
     - OneHotEncoder
     - ColumnTransformer
     - Pipeline
@@ -132,7 +132,7 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
     e → 0
     p → 1
 
-7. Feature & Target Preparation
+**7. Feature & Target Preparation**
 
     Feature atau variabel input:
     X = seluruh kolom kecuali class
