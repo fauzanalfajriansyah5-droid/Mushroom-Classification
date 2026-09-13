@@ -50,6 +50,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 
 **3. Repository Structure**
+
    Struktur repository dibuat sesuai dengan ketentuan pengumpulan:
 
     Mushroom-Classification/
