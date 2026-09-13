@@ -4,9 +4,9 @@
 
 ### Identitas
 
-- **Nama:** Fauzan Al Fajriansyah
-- **NIM:** 09030282630035
-- **Program Studi:** Teknik Komputer
+- **Nama:**             Fauzan Al Fajriansyah
+- **NIM:**              09030282630035
+- **Program Studi:**    Teknik Komputer
 - **Perguruan Tinggi:** Universitas Sriwijaya
 
 ---
@@ -26,29 +26,28 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 ---
 
 # 2. Dataset
+     Dataset yang digunakan adalah Mushroom Classification dengan file: mushrooms.csv
 
-    Dataset yang digunakan adalah Mushroom Classification dengan file: mushrooms.csv
+     Dataset terdiri dari:
+     8.124 baris
+     23 kolom
+     Seluruh fitur pada dataset berbentuk categorical.
 
-    Dataset terdiri dari:
-    8.124 baris
-    23 kolom
-    Seluruh fitur pada dataset berbentuk categorical.
+     Target
+     Kolom target adalah:
+     class
 
-    Target
-    Kolom target adalah:
-    class
+     Keterangan:
+     e = Edible
+     p = Poisonous
 
-    Keterangan:
-    e = Edible
-    p = Poisonous
+     Distribusi target:
+     e = 4.208 data
+     p = 3.916 data
 
-    Distribusi target:
-    e = 4.208 data
-    p = 3.916 data
-
-    Sumber Dataset
-    Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
-    https://www.kaggle.com/datasets/uciml/mushroom-classification/data
+     Sumber Dataset
+     Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
+     https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 
 **3. Repository Structure**
 
