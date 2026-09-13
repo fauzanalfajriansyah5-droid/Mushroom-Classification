@@ -102,36 +102,37 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
 
     Hasil dan visualisasi EDA dapat dilihat secara lengkap pada notebook.
 
-6. Data Preprocessing
 
-    Tahapan preprocessing yang dilakukan:
+     6. Data Preprocessing
 
-    **Missing Value dan Nilai ?**
-    Dataset tidak memiliki standard missing value (NaN), tetapi terdapat nilai ? pada beberapa kolom.
+     Tahapan preprocessing yang dilakukan:
 
-    **Nilai ? ditangani dengan menggantinya menjadi:**
-    unknown
-    
-    Dengan cara ini, informasi bahwa suatu nilai tidak diketahui tetap dapat dipertahankan sebagai kategori.
+     Missing Value dan Nilai ?
+     Dataset tidak memiliki standard missing value (NaN), tetapi terdapat nilai ? pada beberapa kolom.
 
-    **Duplicate**
-    Dilakukan pemeriksaan terhadap data duplikat. Dataset tidak memiliki duplicate berdasarkan pemeriksaan yang dilakukan.
+     Nilai ? ditangani dengan menggantinya menjadi:
+     unknown
 
-    **Constant Feature**
-    Fitur veil-type memiliki satu nilai unik sehingga tidak memberikan informasi pembeda dan dihapus dari proses pemodelan.
+     Dengan cara ini, informasi bahwa suatu nilai tidak diketahui tetap dapat dipertahankan sebagai kategori.
 
-    **Encoding**
-    Karena fitur pada dataset bersifat categorical, dilakukan One Hot Encoding.
+     Duplicate
+     Dilakukan pemeriksaan terhadap data duplikat. Dataset tidak memiliki duplicate berdasarkan pemeriksaan yang dilakukan.
 
-    **Encoding diterapkan menggunakan:**
-    - OneHotEncoder
-    - ColumnTransformer
-    - Pipeline
+     Constant Feature
+     Fitur veil-type memiliki satu nilai unik sehingga tidak memberikan informasi pembeda dan dihapus dari proses pemodelan.
 
-    Target kemudian dikonversi menjadi nilai numerik:
-    e → 0
-    p → 1
+     Encoding
+     Karena fitur pada dataset bersifat categorical, dilakukan One Hot Encoding.
 
+     Encoding diterapkan menggunakan:
+     OneHotEncoder
+     ColumnTransformer
+     Pipeline
+
+     Target kemudian dikonversi menjadi nilai numerik:
+
+     e → 0
+     p → 1
 **7. Feature & Target Preparation**
 
     Feature atau variabel input:
