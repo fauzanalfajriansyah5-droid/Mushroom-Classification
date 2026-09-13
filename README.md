@@ -50,16 +50,16 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
      https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 
-3. Repository Structure
+     3. Repository Structure
 
-Struktur repository dibuat sesuai dengan ketentuan pengumpulan:
+     Struktur repository dibuat sesuai dengan ketentuan pengumpulan:
 
-Mushroom-Classification/
-├── data/
-│   └── mushrooms.csv
-├── notebook/
-│   └── Fauzan_NIM_TakeHomeML.ipynb
-└── README.md
+     Mushroom-Classification/
+     ├── data/
+     │   └── mushrooms.csv
+     ├── notebook/
+     │   └── 09030282630035_Fauzan_Al_FAjriansyah_TakeHomeML.ipynb
+     └── README.md
 
 4. Methodology
 
