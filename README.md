@@ -26,10 +26,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 ---
 
 # 2. Dataset
-    Dataset yang digunakan adalah **Mushroom Classification** dengan file:
-
-```text
-mushrooms.csv
+    Dataset yang digunakan adalah **Mushroom Classification** dengan file: mushrooms.csv
 
 Dataset terdiri dari:
 
