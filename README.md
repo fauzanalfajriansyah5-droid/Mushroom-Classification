@@ -283,7 +283,6 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
 **16. Conclusion**
 
           Project ini menunjukkan proses lengkap penerapan Machine Learning dan Deep Learning pada dataset Mushroom Classification.
-
           Dataset diproses melalui tahap data understanding, EDA, preprocessing, encoding, pembagian data training dan testing, kemudian digunakan untuk melatih Logistic              Regression, Decision Tree, Random Forest, dan Neural Network.
 
           Setiap model dievaluasi menggunakan Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix. Random Forest juga dilakukan hyperparameter tuning dan                      interpretasi menggunakan feature importance.
