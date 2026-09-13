@@ -28,29 +28,28 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 # 2. Dataset
     Dataset yang digunakan adalah **Mushroom Classification** dengan file: mushrooms.csv
 
-Dataset terdiri dari:
+    Dataset terdiri dari:
+    8.124 baris
+    23 kolom
+    Seluruh fitur pada dataset berbentuk categorical.
 
-8.124 baris
-23 kolom
-Seluruh fitur pada dataset berbentuk categorical.
-Target
+    Target
+    Kolom target adalah:
+    class
 
-Kolom target adalah:
-class
+    Keterangan:
+    e = Edible
+    p = Poisonous
 
-Keterangan:
-e = Edible
-p = Poisonous
+    Distribusi target:
+    e = 4.208 data
+    p = 3.916 data
 
-Distribusi target:
-e = 4.208 data
-p = 3.916 data
+    Sumber Dataset
+    Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
+    https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 
-Sumber Dataset
-Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
-https://www.kaggle.com/datasets/uciml/mushroom-classification/data
-
-3. Repository Structure
+**3. Repository Structure**
    Struktur repository dibuat sesuai dengan ketentuan pengumpulan:
 
     Mushroom-Classification/
