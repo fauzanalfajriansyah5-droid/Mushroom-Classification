@@ -284,7 +284,9 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
 
           Project ini menunjukkan proses lengkap penerapan Machine Learning dan Deep Learning pada dataset Mushroom Classification.
           Dataset diproses melalui tahap data understanding, EDA, preprocessing, encoding, pembagian data training dan testing, kemudian digunakan untuk melatih Logistic              Regression, Decision Tree, Random Forest, dan Neural Network.
+          
           Setiap model dievaluasi menggunakan Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix. Random Forest juga dilakukan hyperparameter tuning dan                      interpretasi menggunakan feature importance.
+          
           Selain klasifikasi, dilakukan eksperimen regresi menggunakan target numerik eksperimental berupa rarity score.
           Secara keseluruhan, Machine Learning dapat digunakan untuk mempelajari pola pada dataset dan melakukan klasifikasi antara kelas edible dan poisonous. Namun, hasil           model pada dataset ini tidak dapat dijadikan sebagai jaminan keamanan konsumsi jamur di dunia nyata.
 
