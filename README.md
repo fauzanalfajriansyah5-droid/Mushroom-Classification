@@ -4,20 +4,20 @@
 
 ### Identitas
 
-- **Nama:**             Fauzan Al Fajriansyah
-- **NIM:**              09030282630035
-- **Program Studi:**    Teknik Komputer
+- **Nama:** Fauzan Al Fajriansyah
+- **NIM:** [ISI NIM]
+- **Program Studi:** Teknik Komputer
 - **Perguruan Tinggi:** Universitas Sriwijaya
 
 ---
 
-# 1. Overview
-      Project ini merupakan pengerjaan Take-Home Challenge dengan topik **Mushroom Classification** menggunakan Machine            Learning dan Deep Learning.
+## 1. Overview
 
-      Tujuan utama project adalah melakukan klasifikasi jamur berdasarkan karakteristik yang terdapat pada dataset untuk           menentukan apakah jamur termasuk **Edible (e)** atau **Poisonous (p)**.
+Project ini merupakan pengerjaan Take-Home Challenge dengan topik **Mushroom Classification** menggunakan Machine Learning dan Deep Learning.
 
+Tujuan utama project adalah melakukan klasifikasi jamur berdasarkan karakteristik yang terdapat pada dataset untuk menentukan apakah jamur termasuk **Edible (e)** atau **Poisonous (p)**.
 
-# Pertanyaan Utama
+### Pertanyaan Utama
 
 > **Can Machine Learning Identify Whether a Mushroom is Edible or Poisonous?**
 
@@ -25,8 +25,12 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
 ---
 
-# 2. Dataset
-     Dataset yang digunakan adalah Mushroom Classification dengan file: mushrooms.csv
+## 2. Dataset
+
+Dataset yang digunakan adalah **Mushroom Classification** dengan file:
+
+```text
+mushrooms.csv
 
      Dataset terdiri dari:
      8.124 baris
