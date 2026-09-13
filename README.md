@@ -294,7 +294,7 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
 
           Repository ini berisi:
           - data/mushrooms.csv — dataset yang digunakan.
-          - notebook/Fauzan_NIM_TakeHomeML.ipynb — notebook pengerjaan Take-Home Challenge.
+          - notebook/09030282630035_Fauzan_Al_Fajriasnyah_TakeHomeML.ipynb — notebook pengerjaan Take-Home Challenge.
           - README.md — dokumentasi project.
 
 
