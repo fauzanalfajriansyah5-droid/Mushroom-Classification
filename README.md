@@ -59,7 +59,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     │   └── 09030282630035_Fauzan_Al-Fajriansyah_TakeHomeML.ipynb
     └── README.md
 
-4. Methodology
+**4. Methodology**
 
     Tahapan pengerjaan project meliputi:
     1. Problem Definition
@@ -80,7 +80,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     16. Final Insight
     17. Conclusion
 
-5. Exploratory Data Analysis
+**5. Exploratory Data Analysis**
     EDA dilakukan untuk memahami karakteristik dataset sebelum proses pemodelan.
 
     Analisis yang dilakukan meliputi:
@@ -98,7 +98,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
     Hasil dan visualisasi EDA dapat dilihat secara lengkap pada notebook.
 
-6. Data Preprocessing
+**6. Data Preprocessing**
     Tahapan preprocessing yang dilakukan:
 
     Missing Value dan Nilai ?
@@ -126,7 +126,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     e → 0
     p → 1
 
-7. Feature & Target Preparation
+**7. Feature & Target Preparation**
 
     Feature atau variabel input:
     X = seluruh kolom kecuali class
@@ -142,7 +142,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     random_state = 42
     stratify = y
 
-8. Classification Models
+**8. Classification Models**
 
     Tiga algoritma Machine Learning digunakan untuk melakukan klasifikasi.
 
@@ -158,7 +158,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     Random Forest digunakan karena merupakan ensemble method yang menggabungkan beberapa decision tree untuk menghasilkan        prediksi.
 
 
-9. Deep Learning Model
+**9. Deep Learning Model**
     Untuk pendekatan Deep Learning digunakan Neural Network menggunakan MLPClassifier.
 
     Arsitektur yang digunakan memiliki dua hidden layer:
@@ -182,7 +182,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     Training dan validation performance divisualisasikan melalui kurva loss dan validation score.
 
 
-10. Model Evaluation
+**10. Model Evaluation**
 
     Setiap model dievaluasi menggunakan:
     Accuracy
@@ -203,7 +203,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     Nilai numerik hasil evaluasi mengikuti output aktual yang dihasilkan ketika notebook dijalankan.
 
 
-11. Hyperparameter Tuning
+**11. Hyperparameter Tuning**
     Hyperparameter tuning dilakukan pada model Random Forest menggunakan GridSearchCV.
 
     Parameter yang dieksplorasi meliputi:
@@ -216,14 +216,14 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     Performa Random Forest sebelum dan sesudah tuning dibandingkan pada notebook.
 
 
-12. Model Interpretation
+**12. Model Interpretation**
     Interpretasi model dilakukan menggunakan feature importance dari Random Forest.
 
     Feature importance digunakan untuk melihat fitur yang memiliki kontribusi relatif lebih besar terhadap keputusan model.
     Hasil feature importance divisualisasikan pada notebook.
 
 
-13. Regression Exploration
+**13. Regression Exploration**
     Selain klasifikasi, dilakukan eksperimen regresi sebagai eksplorasi tambahan.
 
     Target numerik eksperimental dibuat dengan nama:
@@ -242,7 +242,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     Rarity score pada eksperimen ini merupakan target numerik buatan untuk memenuhi eksplorasi regresi dan bukan merupakan       ukuran biologis atau indikator keamanan jamur.
 
 
-14. Comprehensive Analysis
+**14. Comprehensive Analysis**
 
     Berdasarkan proses analisis, beberapa hal yang diperhatikan adalah:
     - Dataset memiliki dua kelas target, yaitu edible dan poisonous.
@@ -257,7 +257,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     - Deep Learning dibandingkan dengan pendekatan Machine Learning tradisional.
 
 
-15. Final Insight
+**15. Final Insight**
 
     Beberapa insight utama dari project ini:
     1. Dataset Mushroom Classification dapat digunakan sebagai permasalahan binary classification.
@@ -270,7 +270,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
     Hasil model pada dataset tidak boleh dianggap sebagai jaminan keamanan jamur di dunia nyata.
 
-16. Conclusion
+**16. Conclusion**
     Project ini menunjukkan proses lengkap penerapan Machine Learning dan Deep Learning pada dataset Mushroom Classification.
 
     Dataset diproses melalui tahap data understanding, EDA, preprocessing, encoding, pembagian data training dan testing,        kemudian digunakan untuk melatih Logistic Regression, Decision Tree, Random Forest, dan Neural Network.
@@ -281,14 +281,14 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
     Secara keseluruhan, Machine Learning dapat digunakan untuk mempelajari pola pada dataset dan melakukan klasifikasi           antara kelas edible dan poisonous. Namun, hasil model pada dataset ini tidak dapat dijadikan sebagai jaminan keamanan        konsumsi jamur di dunia nyata.
 
-17. Files
+**17. Files**
 
     Repository ini berisi:
     - data/mushrooms.csv — dataset yang digunakan.
     - notebook/Fauzan_NIM_TakeHomeML.ipynb — notebook pengerjaan Take-Home Challenge.
     - README.md — dokumentasi project.
 
-18. Dataset Source
+**18. Dataset Source**
 
     Dataset:
     Mushroom Classification — UCI ML Repository
