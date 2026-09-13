@@ -102,20 +102,20 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 **6. Data Preprocessing**
     Tahapan preprocessing yang dilakukan:
 
-    Missing Value dan Nilai ?
+   ** Missing Value dan Nilai ?**
     Dataset tidak memiliki standard missing value (NaN), tetapi terdapat nilai ? pada beberapa kolom.
 
-    Nilai ? ditangani dengan menggantinya menjadi:
+    **Nilai ? ditangani dengan menggantinya menjadi:**
     unknown
     Dengan cara ini, informasi bahwa suatu nilai tidak diketahui tetap dapat dipertahankan sebagai kategori.
 
-    Duplicate
+    **Duplicate**
     Dilakukan pemeriksaan terhadap data duplikat. Dataset tidak memiliki duplicate berdasarkan pemeriksaan yang dilakukan.
 
-    Constant Feature
+    **Constant Feature**
     Fitur veil-type memiliki satu nilai unik sehingga tidak memberikan informasi pembeda dan dihapus dari proses pemodelan.
 
-    Encoding
+    **Encoding**
     Karena fitur pada dataset bersifat categorical, dilakukan One Hot Encoding.
 
     Encoding diterapkan menggunakan:
@@ -147,15 +147,15 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
     Tiga algoritma Machine Learning digunakan untuk melakukan klasifikasi.
 
-    Logistic Regression
+    **Logistic Regression**
     Logistic Regression digunakan sebagai salah satu model baseline untuk klasifikasi biner.
 
-    Decision Tree
+    **Decision Tree**
     Decision Tree digunakan untuk mempelajari pola keputusan berdasarkan fitur-fitur pada dataset.
 
     Selain evaluasi model, training accuracy dan testing accuracy dibandingkan untuk melihat indikasi overfitting.
 
-    Random Forest
+    **Random Forest**
     Random Forest digunakan karena merupakan ensemble method yang menggabungkan beberapa decision tree untuk menghasilkan        prediksi.
 
 
@@ -192,10 +192,10 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     F1-Score
     Confusion Matrix
 
-    Perbandingan performa seluruh model dapat dilihat pada bagian Model Evaluation & Comparison di notebook.
+    Perbandingan performa seluruh model dapat dilihat pada bagian** Model Evaluation & Comparison** di notebook.
 
-    Model Comparison
-    Model	                Accuracy	    Precision	          Recall	       F1-Score
+    **Model Comparison**
+    **Model	                Accuracy	    Precision	          Recall	       F1-Score**
     Logistic Regression	Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
     Decision Tree	      Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
     Random Forest	      Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
@@ -218,7 +218,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 
 
 **12. Model Interpretation**
-    Interpretasi model dilakukan menggunakan feature importance dari Random Forest.
+    Interpretasi model dilakukan menggunakan **feature importance** dari Random Forest.
 
     Feature importance digunakan untuk melihat fitur yang memiliki kontribusi relatif lebih besar terhadap keputusan model.
     Hasil feature importance divisualisasikan pada notebook.
@@ -240,7 +240,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
     - RMSE (Root Mean Squared Error)
     - R² (R-squared)
 
-    Rarity score pada eksperimen ini merupakan target numerik buatan untuk memenuhi eksplorasi regresi dan bukan merupakan       ukuran biologis atau indikator keamanan jamur.
+    Rarity score pada eksperimen ini merupakan target numerik buatan untuk memenuhi eksplorasi regresi dan **bukan merupakan       ukuran biologis atau indikator keamanan jamur.**
 
 
 **14. Comprehensive Analysis**
@@ -292,7 +292,7 @@ Project ini mencakup proses end-to-end mulai dari memahami dataset, Exploratory 
 **18. Dataset Source**
 
     Dataset:
-    Mushroom Classification — UCI ML Repository
+    **Mushroom Classification — UCI ML Repository**
 
     Kaggle:
     https://www.kaggle.com/datasets/uciml/mushroom-classification/data
