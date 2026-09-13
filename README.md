@@ -61,28 +61,29 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      │   └── 09030282630035_Fauzan_Al_FAjriansyah_TakeHomeML.ipynb
      └── README.md
 
-4. Methodology
+     4. Methodology
 
-    Tahapan pengerjaan project meliputi:
-    1. Problem Definition
-    2. Data Understanding
-    3. Exploratory Data Analysis (EDA)
-    4. Data Preprocessing
-    5. Feature & Target Preparation
-    6. Train Test Split
-    7. Logistic Regression
-    8. Decision Tree
-    9. Random Forest
-    10. Deep Learning Model
-    11. Model Evaluation & Comparison
-    12. Hyperparameter Tuning
-    13. Model Interpretation
-    14. Regression Exploration
-    15. Comprehensive Analysis
-    16. Final Insight
-    17. Conclusion
+     Tahapan pengerjaan project meliputi:
 
-5. Exploratory Data Analysis
+     1. Problem Definition
+     2. Data Understanding
+     3. Exploratory Data Analysis (EDA)
+     4. Data Preprocessing
+     5. Feature & Target Preparation
+     6. Train Test Split
+     7. Logistic Regression
+     8. Decision Tree
+     9. Random Forest
+     10. Deep Learning Model
+     11. Model Evaluation & Comparison
+     12. Hyperparameter Tuning
+     13. Model Interpretation
+     14. Regression Exploration
+     15. Comprehensive Analysis
+     16. Final Insight
+     17. Conclusion
+
+     5. Exploratory Data Analysis
 
     EDA dilakukan untuk memahami karakteristik dataset sebelum proses pemodelan.
 
