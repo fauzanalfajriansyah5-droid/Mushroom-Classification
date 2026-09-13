@@ -50,7 +50,8 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      Dataset berasal dari Kaggle dengan sumber UCI ML Repository:
      https://www.kaggle.com/datasets/uciml/mushroom-classification/data
 
-     3. Repository Structure
+
+**3. Repository Structure**
 
      Struktur repository dibuat sesuai dengan ketentuan pengumpulan:
 
@@ -61,7 +62,8 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      │   └── 09030282630035_Fauzan_Al_FAjriansyah_TakeHomeML.ipynb
      └── README.md
 
-     4. Methodology
+
+**4. Methodology**
 
      Tahapan pengerjaan project meliputi:
 
@@ -83,7 +85,8 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      16. Final Insight
      17. Conclusion
 
-     5. Exploratory Data Analysis
+
+**5. Exploratory Data Analysis**
 
     EDA dilakukan untuk memahami karakteristik dataset sebelum proses pemodelan.
 
@@ -103,7 +106,7 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
     Hasil dan visualisasi EDA dapat dilihat secara lengkap pada notebook.
 
 
-     6. Data Preprocessing
+**6. Data Preprocessing**
 
      Tahapan preprocessing yang dilakukan:
 
@@ -135,171 +138,172 @@ Dataset yang digunakan adalah **Mushroom Classification** dengan file: **mushroo
      p → 1
 **7. Feature & Target Preparation**
 
-    Feature atau variabel input:
-    X = seluruh kolom kecuali class
+      Feature atau variabel input:
+      X = seluruh kolom kecuali class
 
-    Target:
-    y = class
+      Target:
+      y = class
 
-    Dataset kemudian dibagi menjadi data training dan testing dengan perbandingan:
-    80% training
-    20% testing
+     Dataset kemudian dibagi menjadi data training dan testing dengan perbandingan:
+     80% training
+     20% testing
 
-    Pembagian menggunakan:
-    random_state = 42
-    stratify = y
-
-8. Classification Models
-
-    Tiga algoritma Machine Learning digunakan untuk melakukan klasifikasi.
-
-    Logistic Regression
-    Logistic Regression digunakan sebagai salah satu model baseline untuk klasifikasi biner.
-
-    Decision Tree
-    Decision Tree digunakan untuk mempelajari pola keputusan berdasarkan fitur-fitur pada dataset.
-
-    Selain evaluasi model, training accuracy dan testing accuracy dibandingkan untuk melihat indikasi overfitting.
-
-    Random Forest
-    Random Forest digunakan karena merupakan ensemble method yang menggabungkan beberapa decision tree untuk menghasilkan        prediksi.
+     Pembagian menggunakan:
+     random_state = 42
+     stratify = y
 
 
-9. Deep Learning Model
-    Untuk pendekatan Deep Learning digunakan Neural Network menggunakan MLPClassifier.
+**8. Classification Models**
 
-    Arsitektur yang digunakan memiliki dua hidden layer:
+        Tiga algoritma Machine Learning digunakan untuk melakukan klasifikasi.
 
-    Input
-      ↓
-    Hidden Layer 1: 64 neurons
-      ↓
-    Hidden Layer 2: 32 neurons
-      ↓
-    Output
+        Logistic Regression
+        Logistic Regression digunakan sebagai salah satu model baseline untuk klasifikasi biner.
 
-    Parameter utama yang digunakan meliputi:
-    Activation: ReLU
-    Optimizer: Adam
-    Learning rate: 0.001
-    Batch size: 32
-    Early stopping
-    Validation fraction: 0.2
+        Decision Tree
+        Decision Tree digunakan untuk mempelajari pola keputusan berdasarkan fitur-fitur pada dataset.
+        Selain evaluasi model, training accuracy dan testing accuracy dibandingkan untuk melihat indikasi overfitting.
 
-    Training dan validation performance divisualisasikan melalui kurva loss dan validation score.
+        Random Forest
+        Random Forest digunakan karena merupakan ensemble method yang menggabungkan beberapa decision tree untuk menghasilkan prediksi.
 
 
-10. Model Evaluation
+**9. Deep Learning Model**
+          Untuk pendekatan Deep Learning digunakan Neural Network menggunakan MLPClassifier.
 
-    Setiap model dievaluasi menggunakan:
-    Accuracy
-    Precision
-    Recall
-    F1-Score
-    Confusion Matrix
+          Arsitektur yang digunakan memiliki dua hidden layer:
 
-    Perbandingan performa seluruh model dapat dilihat pada bagian** Model Evaluation & Comparison** di notebook.
+          Input
+            ↓
+          Hidden Layer 1: 64 neurons
+            ↓
+          Hidden Layer 2: 32 neurons
+            ↓
+          Output
 
-    Model Comparison
-    Model	                Accuracy	    Precision	          Recall	       F1-Score
-    Logistic Regression	Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
-    Decision Tree	      Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
-    Random Forest	      Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
-    Neural Network	Lihat notebook	Lihat notebook	Lihat notebook	Lihat notebook
+          Parameter utama yang digunakan meliputi:
+          - Activation: ReLU
+          - Optimizer: Adam
+          - Learning rate: 0.001
+          - Batch size: 32
+          - Early stopping
+          - Validation fraction: 0.2
 
-    Nilai numerik hasil evaluasi mengikuti output aktual yang dihasilkan ketika notebook dijalankan.
-
-
-11. Hyperparameter Tuning
-    Hyperparameter tuning dilakukan pada model Random Forest menggunakan GridSearchCV.
-
-    Parameter yang dieksplorasi meliputi:
-    - n_estimators
-    - max_depth
-    - min_samples_split
-    - min_samples_leaf
-
-    Tujuan tuning adalah mencari kombinasi hyperparameter yang dapat meningkatkan performa model berdasarkan F1-Score.
-    Performa Random Forest sebelum dan sesudah tuning dibandingkan pada notebook.
+          Training dan validation performance divisualisasikan melalui kurva loss dan validation score.
 
 
-12. Model Interpretation
-    Interpretasi model dilakukan menggunakan **feature importance** dari Random Forest.
+**10. Model Evaluation**
+             
+      Setiap model dievaluasi menggunakan:
+      - Accuracy
+      - Precision
+      - Recall
+      - F1-Score
+      - Confusion Matrix
 
-    Feature importance digunakan untuk melihat fitur yang memiliki kontribusi relatif lebih besar terhadap keputusan model.
-    Hasil feature importance divisualisasikan pada notebook.
+       Perbandingan performa seluruh model dapat dilihat pada bagian Model Evaluation & Comparison di notebook.
 
+       Model Comparison
+       Model	              Accuracy	          Precision	Recall	F1-Score
+       Logistic Regression   Lihat notebook	     Lihat notebook	     Lihat notebook	Lihat notebook
+       Decision Tree	    Lihat notebook	     Lihat notebook     	Lihat notebook	Lihat notebook
+       Random Forest	    Lihat notebook	     Lihat notebook     	Lihat notebook	Lihat notebook
+       Neural Network        Lihat notebook	     Lihat notebook     	Lihat notebook	Lihat notebook
 
-13. Regression Exploration
-    Selain klasifikasi, dilakukan eksperimen regresi sebagai eksplorasi tambahan.
-
-    Target numerik eksperimental dibuat dengan nama:
-    rarity_score
-
-    Rarity score dibuat berdasarkan frekuensi kategori pada fitur.
-
-    Eksperimen ini menggunakan:
-    RandomForestRegressor
-
-    Evaluasi regresi dilakukan menggunakan:
-    - MAE (Mean Absolute Error)
-    - RMSE (Root Mean Squared Error)
-    - R² (R-squared)
-
-    Rarity score pada eksperimen ini merupakan target numerik buatan untuk memenuhi eksplorasi regresi dan **bukan merupakan       ukuran biologis atau indikator keamanan jamur.**
+       Nilai numerik hasil evaluasi mengikuti output aktual yang dihasilkan ketika notebook dijalankan.
 
 
-14. Comprehensive Analysis
+**11. Hyperparameter Tuning**
+      Hyperparameter tuning dilakukan pada model Random Forest menggunakan GridSearchCV.
 
-    Berdasarkan proses analisis, beberapa hal yang diperhatikan adalah:
-    - Dataset memiliki dua kelas target, yaitu edible dan poisonous.
-    - Dataset didominasi oleh fitur categorical.
-    - Nilai ? perlu ditangani sebelum pemodelan.
-    - Fitur konstan seperti veil-type tidak memberikan informasi yang berguna bagi model.
-    - Encoding diperlukan agar fitur categorical dapat digunakan oleh model.
-    - Performa model dibandingkan menggunakan beberapa metrik evaluasi.
-    - Perbedaan training dan testing performance digunakan untuk melihat kemungkinan overfitting.
-    - Hyperparameter tuning dilakukan untuk meningkatkan atau mempertahankan performa model.
-    - Feature importance digunakan untuk membantu memahami fitur yang paling berpengaruh.
-    - Deep Learning dibandingkan dengan pendekatan Machine Learning tradisional.
+      Parameter yang dieksplorasi meliputi:
+      - n_estimators
+      - max_depth
+      - min_samples_split
+      - min_samples_leaf
+
+      Tujuan tuning adalah mencari kombinasi hyperparameter yang dapat meningkatkan performa model berdasarkan F1-Score.
+      Performa Random Forest sebelum dan sesudah tuning dibandingkan pada notebook.
 
 
-15. Final Insight
+**12. Model Interpretation**
+          Interpretasi model dilakukan menggunakan feature importance dari Random Forest.
+                    
+           Feature importance digunakan untuk melihat fitur yang memiliki kontribusi relatif lebih besar terhadap keputusan model.
+           Hasil feature importance divisualisasikan pada notebook.
 
-    Beberapa insight utama dari project ini:
-    1. Dataset Mushroom Classification dapat digunakan sebagai permasalahan binary classification.
-    2. Preprocessing categorical data merupakan tahap penting sebelum model dilatih.
-    3. Penanganan nilai ? diperlukan agar data dapat diproses dengan baik.
-    4. Random Forest dapat digunakan untuk klasifikasi sekaligus memberikan informasi feature importance.
-    5. Evaluasi model tidak cukup hanya menggunakan accuracy sehingga precision, recall, F1-score, dan confusion matrix juga        digunakan.
-    6. Hyperparameter tuning dapat digunakan untuk mencari konfigurasi model yang lebih baik.
-    7. Deep Learning dapat dibandingkan dengan model Machine Learning tradisional untuk melihat pendekatan yang lebih sesuai        terhadap dataset.
 
-    Hasil model pada dataset tidak boleh dianggap sebagai jaminan keamanan jamur di dunia nyata.
+**13. Regression Exploration**
+       Selain klasifikasi, dilakukan eksperimen regresi sebagai eksplorasi tambahan.
 
-16. Conclusion
-    Project ini menunjukkan proses lengkap penerapan Machine Learning dan Deep Learning pada dataset Mushroom Classification.
+       Target numerik eksperimental dibuat dengan nama:
+       rarity_score
 
-    Dataset diproses melalui tahap data understanding, EDA, preprocessing, encoding, pembagian data training dan testing,        kemudian digunakan untuk melatih Logistic Regression, Decision Tree, Random Forest, dan Neural Network.
+       Rarity score dibuat berdasarkan frekuensi kategori pada fitur.
 
-    Setiap model dievaluasi menggunakan Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix. Random Forest juga          dilakukan hyperparameter tuning dan interpretasi menggunakan feature importance.
+       Eksperimen ini menggunakan:
+       RandomForestRegressor
 
-    Selain klasifikasi, dilakukan eksperimen regresi menggunakan target numerik eksperimental berupa rarity score.
+       Evaluasi regresi dilakukan menggunakan:
+       MAE (Mean Absolute Error)
+       RMSE (Root Mean Squared Error)
+       R² (R-squared)
 
-    Secara keseluruhan, Machine Learning dapat digunakan untuk mempelajari pola pada dataset dan melakukan klasifikasi           antara kelas edible dan poisonous. Namun, hasil model pada dataset ini tidak dapat dijadikan sebagai jaminan keamanan        konsumsi jamur di dunia nyata.
+       Rarity score pada eksperimen ini merupakan target numerik buatan untuk memenuhi eksplorasi regresi dan bukan merupakan ukuran biologis atau indikator                        keamanan jamur.
 
-17. Files
+               
+**14. Comprehensive Analysis**
 
-    Repository ini berisi:
-    - data/mushrooms.csv — dataset yang digunakan.
-    - notebook/Fauzan_NIM_TakeHomeML.ipynb — notebook pengerjaan Take-Home Challenge.
-    - README.md — dokumentasi project.
+       Berdasarkan proses analisis, beberapa hal yang diperhatikan adalah:
+       1. Dataset memiliki dua kelas target, yaitu edible dan poisonous.
+       2. Dataset didominasi oleh fitur categorical.
+       3. Nilai ? perlu ditangani sebelum pemodelan.
+       4. Fitur konstan seperti veil-type tidak memberikan informasi yang berguna bagi model.
+       5. Encoding diperlukan agar fitur categorical dapat digunakan oleh model.
+       6. Performa model dibandingkan menggunakan beberapa metrik evaluasi.
+       7. Perbedaan training dan testing performance digunakan untuk melihat kemungkinan overfitting.
+       8. Hyperparameter tuning dilakukan untuk meningkatkan atau mempertahankan performa model.
+       9. Feature importance digunakan untuk membantu memahami fitur yang paling berpengaruh.
+      10. Deep Learning dibandingkan dengan pendekatan Machine Learning tradisional.
 
-18. Dataset Source
+                    
+**15. Final Insight**
 
-    Dataset:
-    Mushroom Classification — UCI ML Repository
+        Beberapa insight utama dari project ini:
+        1. Dataset Mushroom Classification dapat digunakan sebagai permasalahan binary classification.
+        2. Preprocessing categorical data merupakan tahap penting sebelum model dilatih.
+        3. Penanganan nilai ? diperlukan agar data dapat diproses dengan baik.
+        4. Random Forest dapat digunakan untuk klasifikasi sekaligus memberikan informasi feature importance.
+        5. Evaluasi model tidak cukup hanya menggunakan accuracy sehingga precision, recall, F1-score, dan confusion matrix juga digunakan.
+        6. Hyperparameter tuning dapat digunakan untuk mencari konfigurasi model yang lebih baik.
+        7. Deep Learning dapat dibandingkan dengan model Machine Learning tradisional untuk melihat pendekatan yang lebih sesuai terhadap dataset.
+        8. Hasil model pada dataset tidak boleh dianggap sebagai jaminan keamanan jamur di dunia nyata.
 
-    Kaggle:
-    https://www.kaggle.com/datasets/uciml/mushroom-classification/data
+                    
+**16. Conclusion**
 
+          Project ini menunjukkan proses lengkap penerapan Machine Learning dan Deep Learning pada dataset Mushroom Classification.
+
+          Dataset diproses melalui tahap data understanding, EDA, preprocessing, encoding, pembagian data training dan testing, kemudian digunakan untuk melatih Logistic              Regression, Decision Tree, Random Forest, dan Neural Network.
+
+          Setiap model dievaluasi menggunakan Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix. Random Forest juga dilakukan hyperparameter tuning dan                      interpretasi menggunakan feature importance.
+
+          Selain klasifikasi, dilakukan eksperimen regresi menggunakan target numerik eksperimental berupa rarity score.
+
+          Secara keseluruhan, Machine Learning dapat digunakan untuk mempelajari pola pada dataset dan melakukan klasifikasi antara kelas edible dan poisonous. Namun, hasil           model pada dataset ini tidak dapat dijadikan sebagai jaminan keamanan konsumsi jamur di dunia nyata.
+
+**17. Files**
+
+          Repository ini berisi:
+          - data/mushrooms.csv — dataset yang digunakan.
+          - notebook/Fauzan_NIM_TakeHomeML.ipynb — notebook pengerjaan Take-Home Challenge.
+          - README.md — dokumentasi project.
+
+
+**18. Dataset Source**
+
+     Dataset:
+     Mushroom Classification — UCI ML Repository
+
+     Kaggle:
+     https://www.kaggle.com/datasets/uciml/mushroom-classification/data
